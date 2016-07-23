@@ -1,20 +1,207 @@
 <!DOCTYPE html>
-<html>
+<html lang="sd" xml:lang="sd" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title></title>
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <meta charset="utf-8" />
+    <title>Poetry</title>
+
+    <!-- Poetry references -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link href="css/index.css" rel="stylesheet" />
 </head>
-<body >
-<div data-role="header">
-	<h1>Sooraj</h1>
-</div>
-<div data-role="main" class="ui-content" style="height:500px;">
-    This is contents page
-  </div>
-<div data-role="footer">
-	<h1>this is footer</h1>
-</div>
+<body style="background:#2da5da;">
+    <div data-role="page" id="main-cover" style="background:#2da5da; vertical-align:middle">
+        <div data-role="main" class="ui-content">
+            <img src="images/cover .jpg"  width="120"/>
+            <a href="#main-menu" style="color:#fff"><p>Tab To continue</p></a>
+        </div>
+    </div>
+    <div data-role="page" id="main-menu" style="background:#eee">
+        <div data-role="header" data-position="fixed" style="background:#2da5da;color:#ffffff;text-shadow:none;">
+            <h1>برسات خيمي ۾</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <div class="ui-grid-a" style="margin-top:20px;">
+                
+                    <div class="ui-block-a" style="//border:1px solid black;height:">
+                        <center>
+                            <a href="">
+                                <div style="height:80px;width:80px;border-radius:60px;background:#fff;border:4px solid #ffa400;padding:5px;">
+                                    <img src="images/cover .jpg" width="40" />
+                                    <p style="font-family:'Arabic-Typesetting;'">ارپنا</p>
+                                </div>
+                            </a>
+                       </center>
+                    </div>
+                <div class="ui-block-b" style="//border:1px solid black;height:">
+                    <center>
+                        <a href="#gzl">
+                            <div style="height:80px;width:80px;border-radius:60px;background:#fff;border:4px solid #ffa400;padding:5px;">
+                                <img src="images/cover .jpg" width="40" />
+                                <p style="font-family:'Arabic-Typesetting;'">غزل</p>
+                            </div>
+                        </a>
+                    </center>
+                </div>
+            </div>
+            <div class="ui-grid-a" style="margin-top:20px;">
+
+                <div class="ui-block-a" style="//border:1px solid black;height:">
+                    <center>
+                        <a href="#about">
+                            <div style="height:80px;width:80px;border-radius:60px;background:#fff;border:4px solid #ffa400;padding:5px;">
+                                <img src="images/cover .jpg" width="40" />
+                                <p style="font-family:'Arabic-Typesetting;'">ٽعارف</p>
+                            </div>
+                        </a>
+                    </center>
+                </div>
+                <div class="ui-block-b" style="//border:1px solid black;height:">
+                    <center>
+                        <a href="">
+                            <div style="height:80px;width:80px;border-radius:60px;background:#fff;border:4px solid #ffa400;padding:5px;">
+                                <img src="images/cover .jpg" width="40" />
+                                <p style="font-family:'Arabic-Typesetting;'">به لفظ</p>
+                            </div>
+                        </a>
+                    </center>
+                </div>
+            </div>
+            <div class="ui-grid-a" style="margin-top:20px;">
+
+                <div class="ui-block-a" style="//border:1px solid black;height:">
+                    <center>
+                        <a href="#developer">
+                            <div style="height:80px;width:80px;border-radius:60px;background:#fff;border:4px solid #ffa400;padding:5px;">
+                                <img src="images/cover .jpg" width="40" />
+                                <p style="font-family:'Arabic-Typesetting;'">ڊولوپير</p>
+                            </div>
+                        </a>
+                    </center>
+                </div>
+                <div class="ui-block-b" style="//border:1px solid black;height:">
+                    <center>
+                        <a href="">
+                            <div style="height:80px;width:80px;border-radius:60px;background:#fff;border:4px solid #ffa400;padding:5px;">
+                                <img src="images/cover .jpg" width="40" />
+                                <p style="font-family:'Arabic-Typesetting;'">بند ڪريو</p>
+                            </div>
+                        </a>
+                    </center>
+                </div>
+            </div>
+        
+        </div>
+
+        <div data-role="footer" data-position="fixed" style="background:#2da5da;color:#ffffff;text-shadow:none;">
+            <h1>this is footer</h1>
+        </div>
+    </div>
+    <!--Page 3-->
+    <div data-role="page" id="gzl">
+        <div data-role="header" data-position="fixed" style="background:#2da5da;color:#ffffff;text-shadow:none;">
+            <h1 style=" font-family: 'MBLATEEFI';">برسات خيمي ۾</h1>
+        </div>
+        <div data-role="main" class="ui-content" style="margin:0px;padding-top:0px;padding-left:0px;padding-bottom:0px;">
+            <a href="#g1"><div style="background:#dedede; width:100%;height:30px;text-align:right; padding:10px;margin-bottom:1px; color:#333; text-shadow:none;">سدا آس جي اُس جلايو اسان کي</div></a>
+            <a href="#"><div style="background:#dedede; width:100%;height:30px;text-align:right; padding:10px;margin-bottom:1px; color:#333; text-shadow:none;">برسات خيمي ۾  </div></a>
+            <a href="#"><div style="background:#dedede; width:100%;height:30px;text-align:right; padding:10px;margin-bottom:1px; color:#333; text-shadow:none;">برسات خيمي ۾  </div></a>
+            <a href="#"><div style="background:#dedede; width:100%;height:30px;text-align:right; padding:10px;margin-bottom:1px; color:#333; text-shadow:none;">برسات خيمي ۾  </div></a>
+            <a href="#"><div style="background:#dedede; width:100%;height:30px;text-align:right; padding:10px;margin-bottom:1px; color:#333; text-shadow:none;">برسات خيمي ۾  </div></a>
+            <a href="#"><div style="background:#dedede; width:100%;height:30px;text-align:right; padding:10px;margin-bottom:1px; color:#333; text-shadow:none;">برسات خيمي ۾  </div></a>
+            <a href="#"><div style="background:#dedede; width:100%;height:30px;text-align:right; padding:10px;margin-bottom:1px; color:#333; text-shadow:none;">برسات خيمي ۾  </div></a>
+            <a href="#"><div style="background:#dedede; width:100%;height:30px;text-align:right; padding:10px;margin-bottom:1px; color:#333; text-shadow:none;">برسات خيمي ۾  </div></a>
+            <a href="#"><div style="background:#dedede; width:100%;height:30px;text-align:right; padding:10px;margin-bottom:1px; color:#333; text-shadow:none;">برسات خيمي ۾  </div></a>
+            <a href="#"><div style="background:#dedede; width:100%;height:30px;text-align:right; padding:10px;margin-bottom:1px; color:#333; text-shadow:none;">برسات خيمي ۾  </div></a>
+            <a href="#"><div style="background:#dedede; width:100%;height:30px;text-align:right; padding:10px;margin-bottom:1px; color:#333; text-shadow:none;">برسات خيمي ۾  </div></a>
+            <a href="#"><div style="background:#dedede; width:100%;height:30px;text-align:right; padding:10px;margin-bottom:1px; color:#333; text-shadow:none;">برسات خيمي ۾  </div></a>
+            <a href="#"><div style="background:#dedede; width:100%;height:30px;text-align:right; padding:10px;margin-bottom:1px; color:#333; text-shadow:none;">برسات خيمي ۾  </div></a>
+            <a href="#"><div style="background:#dedede; width:100%;height:30px;text-align:right; padding:10px;margin-bottom:1px; color:#333; text-shadow:none;">برسات خيمي ۾  </div></a>
+            <a href="#"><div style="background:#dedede; width:100%;height:30px;text-align:right; padding:10px;margin-bottom:1px; color:#333; text-shadow:none;">برسات خيمي ۾  </div></a>
+            <a href="#"><div style="background:#dedede; width:100%;height:30px;text-align:right; padding:10px;margin-bottom:1px; color:#333; text-shadow:none;">برسات خيمي ۾  </div></a>
+
+        </div>
+
+        <div data-role="footer" data-position="fixed" style="background:#2da5da;color:#ffffff;text-shadow:none;">
+            <h1>this is footer</h1>
+        </div>
+        </div>
+    <div data-role="page" id="g1">
+        <div data-role="header" data-position="fixed" style="background:#2da5da;color:#ffffff;text-shadow:none;">
+            <h1>سدا آس جي اُس </h1>
+        </div>
+        <div data-role="main" class="ui-content" style="text-align:justify;">
+           
+            <div style="text-align:center;word-spacing:0px; white-space:pre-wrap;">
+سدا   آس    جي   اُس    جلايو     اسان    کي
+ڪٿي      ڇانورا     هِن     ٻڌايو    اسان    کي
+                <br />
+اسان  هون  اوهان  جا، اوهان  هو   اسان  جا
+اچو    پاڻ   يا   بس     گهرايو      اسان    کي
+                <br />
+اسان     جام   نوشي   ڪرڻ   خوب   ڄاڻون
+رندو!    مئڪدي     ۾   رهايو   اسان      کي
+<br />
+اسان   شاعريءَ   لئه    وقف   ڪئي   عمر  آ
+سندءِ!     عشق     آهي    لکايو   اسان     کي
+                <br />
+پڇو   ٿا!   ته   ڇا   ٿا   ڏسئون   چنڊَ    ۾   اڄ
+نظر   ڪوئي   جلوو   آ،    آيو     اسان     کي
+                <br />
+“مئن”   جي   مٽيءَ  مان  ٿيا  هاسين    پيدا
+مرڻ    بعد    اُت     ئي   رکايو   اسان    کي
+                <br />
+اڙي    ا و    زمانا!   جُڳن    کان      وٺي    تو
+قدم    هر  قدم      تي   ستايو    اسان    کي
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed" style="background:#2da5da;color:#ffffff;text-shadow:none;">
+            <div class="ui-grid-b" style="text-align:center;height:35px;line-height:35px;">
+                <div class="ui-block-a">فياض حسين</div>
+                <div class="ui-block-b"> 1 غزل</div>
+                <div class="ui-block-c">سدا آس جي</div>
+            </div>
+        </div>
+    </div>
+    <div data-role="page" id="developer" style="background:#2da5da;">
+        <div data-role=" main" class="ui-content" style="background:#2da5da;height:100%;color:#fff;padding-right:0px;padding-left:0px;">
+        <center>
+            <h3 style="">ABOUT DEVELOPER</h3>
+            <img src="images/sooraj.png" width="150" height="150" style="border-radius:80px;margin-top:30px;" />
+            <h3 style="font-weight:normal">SOORAJ ABBSI</h3>
+            <p>Android App developer & UI Designer</p>
+            <p><em>@BitMatirx.inc</em></p>
+        </center>
+        <div class="ui-grid-d" style="height:60px;line-height:60px;background:#fff;color:#333;border-bottom:3px solid #ddd; ">
+            <div class="ui-block-a" style="text-align:center;">Sooraj</div>
+            <div class="ui-block-b" style="text-align:center;"><a href=""><img src="images/fb.png" width="40" height="40"style=" margin-top:10px;"/> </a></div>
+            <div class="ui-block-c" style="text-align:center;"><a href=""><img src="images/gp.png" width="40" height="40" style=" margin-top:10px;" /> </a></div>
+            <div class="ui-block-d" style="text-align:center;"><a href=""><img src="images/tw.png" width="40" height="40" style=" margin-top:10px;" /> </a></div>
+            <div class="ui-block-e" style="text-align:center;"><a href=""><img src="images/in.png" width="40" height="40" style=" margin-top:10px;" /> </a></div>
+        </div>
+        <div class="ui-grid-d" style="height:60px;line-height:60px;background:#fff;color:#333;">
+                <div class="ui-block-a" style="text-align:center;">BitMatrix</div>
+                <div class="ui-block-b" style="text-align:center;"><a href=""><img src="images/fb.png" width="40" height="40" style=" margin-top:10px;" /> </a></div>
+                <div class="ui-block-c" style="text-align:center;"><a href=""><img src="images/gp.png" width="40" height="40" style=" margin-top:10px;" /> </a></div>
+                <div class="ui-block-d" style="text-align:center;"><a href=""><img src="images/tw.png" width="40" height="40" style=" margin-top:10px;" /> </a></div>
+                <div class="ui-block-e" style="text-align:center;"><a href=""><img src="images/in.png" width="40" height="40" style=" margin-top:10px;" /> </a></div>
+         </div>
+    </div>
+    </div>
+    <div data-role="page" id="about">
+    	<div data-role="main"  class="ui-content" style="width:100%;padding:0px;">
+    	<center>
+    		<div style="background:url('images/cover.jpg');background-size:100% 300px; opacity:0.4;background-repeat: no-repeat; height:1000px;"></div>
+    	<!-- <img src="images/cover.jpg" style="border-radius:0px;"> -->
+    	</center>
+    	</div>
+    </div>
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <script src="scripts/index.js"></script>
 </body>
 </html>
